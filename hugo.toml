@@ -1,0 +1,89 @@
+baseURL = 'https://pringled.dev/'
+languageCode = 'en-us'
+title = 'pringled.dev'
+theme = 'PaperMod'
+
+[params]
+  description = "Lead ML engineer. Building small, practical ML systems."
+  author = "Thomas van Dongen"
+  
+  # Home page
+  [params.homeInfoParams]
+    Title = "Hi, I'm Thomas 👋"
+    Content = """
+Lead ML engineer. I build small, practical ML systems—embeddings, retrieval, evaluation, tooling.
+
+Currently focused on lightweight embedding models and production ML pragmatism.
+"""
+
+  # Social links (displayed as icons in header/footer)
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Pringled"
+  
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/thomas-van-dongen"
+  
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:contact@pringled.dev"
+  
+  # Profile mode for better social icon placement
+  [params.profileMode]
+    enabled = true
+    title = "Thomas van Dongen"
+    subtitle = "Lead ML engineer. I build small, practical ML systems—embeddings, retrieval, evaluation, tooling."
+    imageUrl = "" # Optional: add a profile photo URL
+    imageTitle = "Thomas van Dongen"
+    imageWidth = 120
+    imageHeight = 120
+    
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects"
+    
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/blog"
+    
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about"
+
+  # Features
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  
+  # Syntax highlighting - use inline style for better light mode
+  [params.assets]
+    disableHLJS = false
+
+[markup]
+  [markup.highlight]
+    style = 'github'
+    lineNos = false
+    lineNumbersInTable = false
+
+# Menu
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Notes"
+  url = "/blog/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 30
