@@ -70,3 +70,34 @@ html[data-theme="dark"] .bg {
 /* GenericInserted */ html[data-theme="dark"] .chroma .gi { color:#a6e22e }
 /* GenericStrong */ html[data-theme="dark"] .chroma .gs { font-weight:bold }
 /* GenericSubheading */ html[data-theme="dark"] .chroma .gu { color:#75715e }
+
+/* --- PaperMod-ish dark code block polish (keeps Monokai token colors) --- */
+html[data-theme="dark"] {
+  --code-bg: #1f2228;          /* softer than monokai #272822 */
+  --code-border: rgba(255,255,255,0.10);
+}
+
+/* Wrapper: rounded, subtle border/shadow */
+html[data-theme="dark"] .post-content .highlight {
+  background: var(--code-bg) !important;
+  border: 1px solid var(--code-border) !important;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+/* Keep the <pre> transparent so wrapper controls bg */
+html[data-theme="dark"] .post-content .highlight > pre.chroma {
+  background: transparent !important;
+}
+
+/* Fix “plain text” looking slightly dim in some languages */
+html[data-theme="dark"] .chroma,
+html[data-theme="dark"] .chroma .line,
+html[data-theme="dark"] .chroma .cl {
+  color: #e6e6e6; /* a touch brighter than #f8f8f2 can feel on darker bg */
+}
+
+/* Optional: nicer selection inside code blocks */
+html[data-theme="dark"] .chroma ::selection {
+  background: rgba(255, 255, 255, 0.18);
+}
