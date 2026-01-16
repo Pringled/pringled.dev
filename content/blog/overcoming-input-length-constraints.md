@@ -4,7 +4,10 @@ date: 2021-12-14
 draft: false
 tags: ["transformers", "summarization", "long-documents", "nlp"]
 canonicalURL: "https://towardsdatascience.com/overcoming-input-length-constraints-of-transformers-b0dd5c557f7e"
+summary: "Using extractive summarization to train Transformers on long documents efficiently."
 ---
+
+<!--more-->
 
 *Originally published on [Towards Data Science](https://towardsdatascience.com/overcoming-input-length-constraints-of-transformers-b0dd5c557f7e)*
 

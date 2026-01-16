@@ -4,7 +4,10 @@ date: 2024-10-14
 draft: false
 tags: ["embeddings", "sentence-transformers", "model-distillation", "nlp"]
 canonicalURL: "https://huggingface.co/blog/Pringled/model2vec"
+summary: "Distill small, fast static models from any Sentence Transformer without needing a dataset."
 ---
+
+<!--more-->
 
 *Originally published on [Hugging Face](https://huggingface.co/blog/Pringled/model2vec)*
 

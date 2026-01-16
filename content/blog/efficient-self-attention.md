@@ -5,7 +5,10 @@ draft: false
 tags: ["transformers", "attention", "efficient-attention", "nlp"]
 canonicalURL: "https://towardsdatascience.com/demystifying-efficient-self-attention-b3de61b9b0fb"
 math: true
+summary: "A practical overview of efficient attention mechanisms that tackle the quadratic scaling problem."
 ---
+
+<!--more-->
 
 *Originally published on [Towards Data Science](https://towardsdatascience.com/demystifying-efficient-self-attention-b3de61b9b0fb)*
 
