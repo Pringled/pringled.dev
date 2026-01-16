@@ -100,3 +100,21 @@ html[data-theme="light"] .chroma .gu { color:#a0a1a7; }
 
 /* Whitespace helper (rare) */
 html[data-theme="light"] .chroma .w { color: transparent; }
+
+/* --- Fix washed-out "plain text" in non-highlighted blocks (bash, txt, etc.) --- */
+html[data-theme="light"] .chroma,
+html[data-theme="light"] .chroma .line,
+html[data-theme="light"] .chroma .cl {
+  color: #383a42 !important; /* base fg */
+}
+
+/* Chroma's "Text" token class (often used for plain content) */
+html[data-theme="light"] .chroma .x,
+html[data-theme="light"] .chroma .txt {
+  color: #383a42 !important;
+}
+
+/* If your generated HTML uses span class="n" heavily, ensure it isn't overridden */
+html[data-theme="light"] .chroma .n {
+  color: #383a42 !important;
+}
