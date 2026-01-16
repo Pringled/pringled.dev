@@ -65,7 +65,7 @@ theme = "PaperMod"
 
   # Assets / highlighting
   [params.assets]
-    disableHLJS = false
+    disableHLJS = true
 
 [markup]
   [markup.highlight]
