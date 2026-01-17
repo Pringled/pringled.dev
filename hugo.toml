@@ -7,8 +7,22 @@ enableRobotsTXT = true
 googleAnalytics = "G-FT1MZRFHXW"
 
 [params]
+  # Environment and metadata
+  env = "production"
   author = "Thomas van Dongen"
-  description = "Lead ML engineer building small, practical ML systems."
+  title = "Thomas van Dongen — Lead ML Engineer"
+  description = "Lead ML engineer specializing in embeddings, retrieval, and classification."
+  keywords = [
+    "Thomas van Dongen",
+    "machine learning engineer",
+    "embeddings",
+    "retrieval",
+    "recommendation systems",
+    "open-source",
+    "Model2Vec",
+    "SemHash",
+    "Pyversity"
+  ]
 
   # OpenGraph / Social sharing
   images = ["/avatar.png"]
