@@ -11,7 +11,7 @@ googleAnalytics = "G-FT1MZRFHXW"
   env = "production"
   author = "Thomas van Dongen"
   title = "Thomas van Dongen — Lead ML Engineer"
-  description = "Building production ML systems for embeddings, retrieval, and classification."
+  description = "Lead ML Engineer building production ML systems."
   keywords = [
     "Thomas van Dongen",
     "Pringled",
