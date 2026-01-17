@@ -47,7 +47,7 @@ summaryLength = 0
   [params.profileMode]
     enabled = true
     title = "Thomas van Dongen"
-    subtitle = "Lead ML engineer building small, practical ML systems for embeddings, retrieval, and evaluation."
+    subtitle = "Lead ML Engineer. I build production ML systems for embeddings, retrieval, and classification. Active open-source maintainer."
     imageUrl = ""
     imageTitle = "Thomas van Dongen"
     imageWidth = 120

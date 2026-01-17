@@ -1,0 +1,19 @@
+/* Button hierarchy for homepage */
+.profile .buttons a.button:first-child {
+    background: var(--primary);
+    color: var(--theme);
+    border-color: var(--primary);
+}
+
+.profile .buttons a.button:first-child:hover {
+    background: var(--secondary);
+}
+
+.profile .buttons a.button:last-child {
+    background: transparent;
+    border: 1px solid var(--border);
+}
+
+.profile .buttons a.button:last-child:hover {
+    background: var(--tertiary);
+}
