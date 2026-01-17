@@ -82,13 +82,13 @@ Thesis title: "Quality Prediction of Scientific Documents Using Textual and Visu
 
 ## Media & Talks
 
-**Probabl Podcast** — *Time for some (extreme) distillation*  
-Podcast about Model2Vec and embeddings models.\
-[YouTube](https://www.youtube.com/watch?v=L2N1qvfP7tg) • [Spotify](https://open.spotify.com/episode/1Dmf2Z3STrxxg4EE8TXM1L)
-
 **Weaviate Podcast** — *Pyversity with Thomas van Dongen*  
 Podcast about Pyversity and diversity in recommender systems.\
 [YouTube](https://www.youtube.com/watch?v=8rvCoMzOSYM) • [Spotify](https://open.spotify.com/episode/6TcAopBSg2iy0kgbyBrIvZ)
+
+**Probabl Podcast** — *Time for some (extreme) distillation*  
+Podcast about Model2Vec and embeddings models.\
+[YouTube](https://www.youtube.com/watch?v=L2N1qvfP7tg) • [Spotify](https://open.spotify.com/episode/1Dmf2Z3STrxxg4EE8TXM1L)
 
 ## Contact
 
