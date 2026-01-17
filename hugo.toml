@@ -65,10 +65,6 @@ summaryLength = 0
       name = "About"
       url = "/about/"
 
-    [[params.profileMode.buttons]]
-      name = "CV"
-      url = "/cv/"
-
   # Assets / highlighting
   [params.assets]
     disableHLJS = true
