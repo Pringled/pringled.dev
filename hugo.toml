@@ -3,17 +3,11 @@ languageCode = "en-us"
 title = "thomasvd.dev"
 theme = "PaperMod"
 summaryLength = 0
+enableRobotsTXT = true
 
 [params]
   author = "Thomas van Dongen"
   description = "Lead ML engineer building small, practical ML systems."
-
-  # Favicon
-  [params.assets]
-    favicon = "/favicon.ico"
-    favicon16x16 = "/favicon.ico"
-    favicon32x32 = "/favicon.ico"
-    apple_touch_icon = "/avatar.png"
 
   # Theme behavior
   defaultTheme = "auto"
@@ -74,6 +68,10 @@ summaryLength = 0
 
   # Assets / highlighting
   [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon.ico"
+    favicon32x32 = "/favicon.ico"
+    apple_touch_icon = "/avatar.png"
     disableHLJS = true
 
 [markup]
